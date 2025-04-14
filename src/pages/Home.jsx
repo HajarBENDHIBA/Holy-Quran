@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { getSurahs } from "../services/quranService";
 import { Link } from "react-router-dom";
+import quranImage from "../assets/quran.jpg";
 
 const Home = ({ search }) => {
   const [surahs, setSurahs] = useState([]);
@@ -15,22 +16,17 @@ const Home = ({ search }) => {
       <div
         className="relative bg-cover bg-center h-[400px] w-full flex items-center justify-center"
         style={{
-          backgroundImage: `url('https://i.pinimg.com/736x/4c/68/00/4c6800aef641b699d4bf618a69e2b87d.jpg')`,
+          backgroundImage: `url(${quranImage})`,
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-b from-black/60 to-transparent"></div>
-        <div className="relative z-10 text-center px-4">
-          <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">
-            The Holy Quran
-          </h1>
-          <p className="text-xl text-white/90 max-w-2xl mx-auto">
-            Read and understand the divine words of Allah
-          </p>
-        </div>
       </div>
 
       {/* Main Content */}
       <div className="max-w-7xl mx-auto px-6 py-12">
+         <h1 className="text-4xl md:text-6xl font-bold text-center text-[#35767F] mb-16">
+            The Holy Quran
+          </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {surahs
             .filter((surah) =>

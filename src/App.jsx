@@ -15,8 +15,10 @@ import HowToPray from './components/kids/HowToPray';
 import HowToWudu from './components/kids/HowToWudu';
 import IslamicCartoons from './components/kids/IslamicCartoons';
 import ProphetStories from './components/kids/ProphetStories';
-import DailyDuas from './components/kids/DailyDuas';
 import { FavoritesProvider } from './context/FavoritesContext';
+import DailyDua from "./components/kids/DailyDua";
+import ArkanIslam from './components/kids/ArkanIslam';
+import IslamicAnimals from "./components/kids/IslamicAnimals";
 
 const App = () => {
   const [search, setSearch] = useState(""); // State for search term
@@ -37,11 +39,14 @@ const App = () => {
               <Route path="/tajweed" element={<Tajweed />} />
               <Route path="/islamic-calendar" element={<IslamicCalendar />} />
               <Route path="/kids-corner" element={<KidsCorner />} />
+              <Route path="/kids/how-to-wudu" element={<HowToWudu />} />
               <Route path="/kids/how-to-pray" element={<HowToPray />} />
               <Route path="/kids/how-to-wudu" element={<HowToWudu />} />
               <Route path="/kids/cartoons" element={<IslamicCartoons />} />
               <Route path="/kids/prophet-stories" element={<ProphetStories />} />
-              <Route path="/kids/daily-duas" element={<DailyDuas />} />
+              <Route path="/kids/daily-duas" element={<DailyDua />} />
+              <Route path="/kids/arkan-islam" element={<ArkanIslam />} />
+              <Route path="/kids/islamic-animals" element={<IslamicAnimals />} />
             </Routes>
           </main>
           <Footer />

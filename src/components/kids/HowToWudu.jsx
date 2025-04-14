@@ -32,9 +32,10 @@ const HowToWudu = () => {
       step: 4,
       title: "Clean Nose",
       titleArabic: "الاستنشاق",
-      description: "Sniff water into your nose and clean it three times",
-      descriptionArabic: "استنشق الماء في أنفك ونظفه ثلاث مرات",
-      tip: "Use your right hand to put water in and left hand to clean"
+      description: "Sniff water into your nose and blow it out three times.",
+      descriptionArabic: "استنشق الماء في أنفك وأخرجه ثلاث مرات",
+      arabic: "بِسْمِ اللَّهِ",
+      tip: "Use your right hand to take water and your left hand to blow your nose."
     },
     {
       step: 5,
@@ -81,8 +82,11 @@ const HowToWudu = () => {
   return (
     <div className="min-h-screen pt-24 px-8 bg-gradient-to-b from-white to-gray-50">
       <div className="max-w-4xl mx-auto">
-        <Link to="/kids-corner" className="text-[#3F8D98] hover:text-[#35767F] mb-4 inline-block">
-          ← Back to Kids Corner
+      <Link to="/kids-corner" className="inline-flex items-center text-[#3F8D98] hover:text-[#35767F] mb-8 bg-white px-6 py-3 rounded-full shadow-md hover:shadow-lg transition-all duration-300">
+          <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+          </svg>
+          Back to Kids Corner
         </Link>
         
         <div className="text-center mb-8">
@@ -96,6 +100,17 @@ const HowToWudu = () => {
             alt="Steps of Wudu" 
             className="w-9/12 h-auto object-cover mx-auto"
           />
+        </div>
+        
+        <div className="bg-white p-6 rounded-xl shadow-md mb-8">
+          <h2 className="text-2xl font-semibold text-[#35767F] mb-2">What is Wudu?</h2>
+          <h3 className="text-2xl font-arabic text-[#35767F] mb-4">ما هو الوضوء؟</h3>
+          <p className="text-gray-600 mb-2">
+            Wudu is how we clean ourselves before praying to Allah. It's like getting ready to meet someone very special!
+          </p>
+          <p className="text-gray-600 font-arabic text-right">
+            الوضوء هو كيفية تطهير أنفسنا قبل الصلاة لله. إنه مثل الاستعداد لمقابلة شخص مميز جداً!
+          </p>
         </div>
 
         <div className="space-y-6">

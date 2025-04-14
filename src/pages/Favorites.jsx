@@ -21,7 +21,7 @@ const Favorites = () => {
         {Object.entries(favorites).map(([type, items]) => (
           items.length > 0 && (
             <div key={type} className="mb-12">
-              <h2 className="text-3xl font-semibold text-[#3F8D98] mb-6">
+              <h2 className="text-3xl text-center font-semibold text-[#3F8D98] mb-6">
                 {type === 'duas' ? 'Duas' : type === 'adhkar' ? 'Adhkar' : type}
               </h2>
               <div className="grid grid-cols-1 gap-6 max-w-6xl mx-auto">
