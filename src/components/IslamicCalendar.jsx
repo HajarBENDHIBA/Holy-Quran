@@ -1,20 +1,30 @@
 import React, { useState, useEffect } from 'react';
-import { FaCalendarAlt, FaChevronLeft, FaChevronRight } from 'react-icons/fa';
+import { FaCalendarAlt } from 'react-icons/fa';
 
 const IslamicCalendar = () => {
-  const [currentDate, setCurrentDate] = useState(new Date());
-  const [hijriDate, setHijriDate] = useState('');
-  const [calendarDays, setCalendarDays] = useState([]);
+  const [currentYear, setCurrentYear] = useState(new Date().getFullYear());
+  const [hijriYear, setHijriYear] = useState('');
 
-  // Islamic events for the year 2024/1445H
+  // Islamic events for 2025/1446-1447H
   const islamicEvents = {
-    '2024-03-10': 'Start of Ramadan',
-    '2024-04-09': 'Eid al-Fitr',
-    '2024-06-16': 'Eid al-Adha',
-    '2024-07-07': 'Islamic New Year 1446',
-    '2024-07-16': 'Day of Ashura',
-    '2024-09-15': 'Prophet\'s Birthday'
+    '2025-01-27': { name: 'Lailat al Miraj', color: 'text-[#35767F]' },
+    '2025-02-14': { name: 'Lailat al Bara\'ah', color: 'text-[#35767F]' },
+    '2025-03-01': { name: 'Ramadan Begins', color: 'text-[#35767F]' },
+    '2025-03-27': { name: 'Laylat al-Qadr', color: 'text-[#35767F]' },
+    '2025-03-31': { name: 'Eid al-Fitr', color: 'text-[#35767F]' },
+    '2025-06-06': { name: 'Waqf al Arafa', color: 'text-[#35767F]' },
+    '2025-06-07': { name: 'Eid Al-Adha', color: 'text-[#35767F]' },
+    '2025-07-05': { name: 'Muharram (Islamic New Year)', color: 'text-[#35767F]' },
+    '2025-07-14': { name: 'Day of Ashura', color: 'text-[#35767F]' },
+    '2025-09-05': { name: 'Milad un Nabi', color: 'text-[#35767F]' },
+    '2025-02-28': { name: 'Last day of Sha\'ban', color: 'text-[#35767F]' }
   };
+
+  const monthNames = [
+    'JANUARY', 'FEBRUARY', 'MARCH', 'APRIL',
+    'MAY', 'JUNE', 'JULY', 'AUGUST',
+    'SEPTEMBER', 'OCTOBER', 'NOVEMBER', 'DECEMBER'
+  ];
 
   const getDaysInMonth = (year, month) => {
     return new Date(year, month + 1, 0).getDate();
@@ -22,17 +32,14 @@ const IslamicCalendar = () => {
 
   const getFirstDayOfMonth = (year, month) => {
     const firstDay = new Date(year, month, 1).getDay();
-    // Convert Sunday from 0 to 7 to match Monday start
     return firstDay === 0 ? 6 : firstDay - 1;
   };
 
-  const generateCalendarDays = () => {
-    const year = currentDate.getFullYear();
-    const month = currentDate.getMonth();
+  const generateMonthDays = (year, month) => {
     const daysInMonth = getDaysInMonth(year, month);
     const firstDay = getFirstDayOfMonth(year, month);
-    
     const days = [];
+    
     // Add empty cells for days before the first day of the month
     for (let i = 0; i < firstDay; i++) {
       days.push('');
@@ -43,134 +50,99 @@ const IslamicCalendar = () => {
       days.push(i);
     }
     
-    setCalendarDays(days);
+    return days;
   };
 
-  const monthNames = [
-    'JANUARY', 'FEBRUARY', 'MARCH', 'APRIL', 'MAY', 'JUNE',
-    'JULY', 'AUGUST', 'SEPTEMBER', 'OCTOBER', 'NOVEMBER', 'DECEMBER'
-  ];
-
-  const goToPreviousMonth = () => {
-    setCurrentDate(new Date(currentDate.setMonth(currentDate.getMonth() - 1)));
-  };
-
-  const goToNextMonth = () => {
-    setCurrentDate(new Date(currentDate.setMonth(currentDate.getMonth() + 1)));
-  };
-
-  const getEventForDate = (day) => {
+  const getEventForDate = (year, month, day) => {
     if (!day) return null;
-    const dateStr = `${currentDate.getFullYear()}-${String(currentDate.getMonth() + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
+    const dateStr = `${year}-${String(month + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
     return islamicEvents[dateStr];
   };
 
   useEffect(() => {
-    // Get Hijri date
+    // Get Hijri year
     const options = { 
       calendar: 'islamic',
-      day: 'numeric',
-      month: 'long',
       year: 'numeric'
     };
-    const hijriDate = new Intl.DateTimeFormat('ar-SA', options).format(new Date());
-    setHijriDate(hijriDate);
+    const hijriYear = new Intl.DateTimeFormat('ar-SA', options).format(new Date());
+    setHijriYear(hijriYear);
+  }, [currentYear]);
 
-    // Generate calendar days
-    generateCalendarDays();
-  }, [currentDate]);
+  const renderMonth = (month) => {
+    const days = generateMonthDays(currentYear, month);
+    
+    return (
+      <div key={month} className="bg-white rounded-lg shadow-sm p-4">
+        <h3 className="text-lg font-semibold text-[#2C646C] mb-3">
+          {monthNames[month]}
+        </h3>
+        <div className="grid grid-cols-7 gap-1">
+          {['M', 'T', 'W', 'T', 'F', 'S', 'S'].map((day, i) => (
+            <div key={i} className="text-xs text-gray-500 text-center py-1">
+              {day}
+            </div>
+          ))}
+          {days.map((day, index) => {
+            const event = getEventForDate(currentYear, month, day);
+            return (
+              <div
+                key={index}
+                className={`
+                  relative text-center py-1 text-sm
+                  ${event ? 'font-semibold' : ''}
+                  ${event ? event.color : 'text-gray-700'}
+                `}
+              >
+                {day}
+                {event && (
+                  <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2">
+                    <div className="w-1 h-1 bg-[#35767F] rounded-full"></div>
+                  </div>
+                )}
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    );
+  };
 
   return (
-    <div className="min-h-screen bg-gray-50 pt-24 px-8">
-      <h1 className="text-5xl font-bold text-center my-12 text-[#2C646C]">Islamic Calendar</h1>
-      <div className="max-w-4xl mx-auto">
-        <div className="bg-white rounded-xl shadow-md p-8 mb-8">
-          {/* Calendar Header */}
-          <div className="flex items-center justify-between mb-6">
-            <div className="flex items-center gap-4">
-              <FaCalendarAlt className="text-4xl text-[#35767F]" />
-              <div>
-                <h1 className="text-3xl font-bold text-gray-800">
-                  {monthNames[currentDate.getMonth()]} {currentDate.getFullYear()}
-                </h1>
-                <p className="text-sm text-gray-600">Hijri: {hijriDate}</p>
+    <div className="min-h-screen bg-gray-50 pt-16 px-4 pb-8">
+      <div className="max-w-7xl mx-auto mt-18">
+        <div className="flex flex-col items-center justify-center text-center mb-12">
+          <div className="flex flex-col items-center gap-4">
+            <FaCalendarAlt className="text-5xl text-[#35767F]" />
+            <div className="text-center">
+              <h1 className="text-4xl font-bold text-[#2C646C] mb-2">
+                ISLAMIC HOLIDAYS IN {currentYear}
+              </h1>
+              <p className="text-gray-600">Hijri Year: {hijriYear}H</p>
+            </div>
+          </div>
+        </div>
+
+        {/* Calendar Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          {Array.from({ length: 12 }, (_, i) => renderMonth(i))}
+        </div>
+
+        {/* Islamic Events Legend */}
+        <div className="mt-8 bg-white rounded-lg shadow-sm p-6">
+          <h3 className="text-2xl font-semibold text-[#2C646C] mb-8">Islamic Holidays</h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            {Object.entries(islamicEvents).map(([date, event]) => (
+              <div key={date} className="flex items-center gap-2">
+                <div className="w-2 h-2 bg-[#35767F] rounded-full"></div>
+                <span className="text-md text-gray-700">
+                  {new Date(date).toLocaleDateString('en-US', { 
+                    month: 'long',
+                    day: 'numeric'
+                  })} - {event.name}
+                </span>
               </div>
-            </div>
-            <div className="flex gap-4">
-              <button 
-                onClick={goToPreviousMonth}
-                className="p-2 hover:bg-gray-100 rounded-full"
-              >
-                <FaChevronLeft className="text-[#35767F]" />
-              </button>
-              <button 
-                onClick={goToNextMonth}
-                className="p-2 hover:bg-gray-100 rounded-full"
-              >
-                <FaChevronRight className="text-[#35767F]" />
-              </button>
-            </div>
-          </div>
-
-          {/* Calendar Grid */}
-          <div className="border border-gray-200 rounded-lg overflow-hidden">
-            {/* Days of Week Header */}
-            <div className="grid grid-cols-7 bg-gray-50 border-b border-gray-200">
-              {['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'].map((day) => (
-                <div 
-                  key={day} 
-                  className="py-2 text-center text-sm font-semibold text-gray-600"
-                >
-                  {day}
-                </div>
-              ))}
-            </div>
-
-            {/* Calendar Days */}
-            <div className="grid grid-cols-7">
-              {calendarDays.map((day, index) => {
-                const event = getEventForDate(day);
-                return (
-                  <div
-                    key={index}
-                    className={`
-                      h-24 p-2 border-b border-r border-gray-200
-                      ${index % 7 === 6 ? '' : 'border-r'} 
-                      ${Math.floor(index / 7) === Math.floor(calendarDays.length / 7) ? '' : 'border-b'}
-                      hover:bg-gray-50 transition-colors
-                      relative
-                    `}
-                  >
-                    <span className={`
-                      text-sm font-medium 
-                      ${event ? 'text-[#35767F] font-bold' : 'text-gray-700'}
-                    `}>
-                      {day}
-                    </span>
-                    {event && (
-                      <div className="mt-1">
-                        <span className="text-xs bg-[#35767F]/10 text-[#35767F] px-2 py-1 rounded-full">
-                          {event}
-                        </span>
-                      </div>
-                    )}
-                  </div>
-                );
-              })}
-            </div>
-          </div>
-
-          {/* Islamic Events Legend */}
-          <div className="mt-6">
-            <h3 className="text-lg font-semibold text-[#35767F] mb-2">Islamic Events</h3>
-            <div className="border border-gray-200 rounded-lg p-4 space-y-2">
-              {Object.entries(islamicEvents).map(([date, event]) => (
-                <div key={date} className="flex items-center gap-2">
-                  <span className="w-24 text-sm text-gray-600">{new Date(date).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}</span>
-                  <span className="text-sm font-medium text-[#35767F]">{event}</span>
-                </div>
-              ))}
-            </div>
+            ))}
           </div>
         </div>
       </div>

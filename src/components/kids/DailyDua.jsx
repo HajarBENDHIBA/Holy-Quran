@@ -13,34 +13,11 @@ const DailyDua = () => {
       translation: "O Allah, by You we enter the morning and by You we enter the evening, by You we live and by You we die, and to You is the final return.",
       meaning: "This dua reminds us that everything is in Allah's control and we should trust Him in all matters.",
       meaningArabic: "هذا الدعاء يذكرنا أن كل شيء تحت سيطرة الله ويجب أن نثق به في جميع الأمور.",
-      image: "../src/assets/morning.jpg"
+      icon: "🌅"
     },
+
     {
       id: 2,
-      title: "Before Eating",
-      titleArabic: "قبل الأكل",
-      time: "Before meals",
-      timeArabic: "قبل الوجبات",
-      dua: "بِسْمِ اللَّهِ وَعَلَى بَرَكَةِ اللَّهِ",
-      translation: "In the name of Allah and with the blessings of Allah.",
-      meaning: "We thank Allah for our food and ask for His blessings.",
-      meaningArabic: "نشكر الله على طعامنا ونسأل بركته.",
-      image: "../src/assets/eating.jpg"
-    },
-    {
-      id: 3,
-      title: "After Eating",
-      titleArabic: "بعد الأكل",
-      time: "After meals",
-      timeArabic: "بعد الوجبات",
-      dua: "الْحَمْدُ لِلَّهِ الَّذِي أَطْعَمَنِي هَذَا وَرَزَقَنِيهِ مِنْ غَيْرِ حَوْلٍ مِنِّي وَلَا قُوَّةٍ",
-      translation: "All praise is due to Allah who fed me this and provided it for me, without any might or power from myself.",
-      meaning: "We thank Allah for providing us with food and sustenance.",
-      meaningArabic: "نشكر الله على توفير الطعام والرزق لنا.",
-      image: "../src/assets/after-eating.jpg"
-    },
-    {
-      id: 4,
       title: "Before Sleeping",
       titleArabic: "قبل النوم",
       time: "At bedtime",
@@ -49,8 +26,33 @@ const DailyDua = () => {
       translation: "In Your name, O Allah, I die and I live.",
       meaning: "We remember Allah before sleeping and trust Him with our lives.",
       meaningArabic: "نذكر الله قبل النوم ونتوكل عليه في حياتنا.",
-      image: "../src/assets/sleeping.jpg"
+      icon: "🌙"
     },
+    {
+      id: 3,
+      title: "Before Eating",
+      titleArabic: "قبل الأكل",
+      time: "Before meals",
+      timeArabic: "قبل الوجبات",
+      dua: "بِسْمِ اللَّهِ وَعَلَى بَرَكَةِ اللَّهِ",
+      translation: "In the name of Allah and with the blessings of Allah.",
+      meaning: "We thank Allah for our food and ask for His blessings.",
+      meaningArabic: "نشكر الله على طعامنا ونسأل بركته.",
+      icon: "🍽️"
+    },
+    {
+      id: 4,
+      title: "After Eating",
+      titleArabic: "بعد الأكل",
+      time: "After meals",
+      timeArabic: "بعد الوجبات",
+      dua: "الْحَمْدُ لِلَّهِ الَّذِي أَطْعَمَنِي هَذَا وَرَزَقَنِيهِ مِنْ غَيْرِ حَوْلٍ مِنِّي وَلَا قُوَّةٍ",
+      translation: "All praise is due to Allah who fed me this and provided it for me, without any might or power from myself.",
+      meaning: "We thank Allah for providing us with food and sustenance.",
+      meaningArabic: "نشكر الله على توفير الطعام والرزق لنا.",
+      icon: "🙏"
+    },
+    
     {
       id: 5,
       title: "When Entering Home",
@@ -61,7 +63,7 @@ const DailyDua = () => {
       translation: "In the name of Allah we enter and in the name of Allah we leave, and upon our Lord we place our trust.",
       meaning: "We seek Allah's protection for our home and family.",
       meaningArabic: "نطلب حماية الله لمنزلنا وعائلتنا.",
-      image: "../src/assets/home.jpg"
+      icon: "🏠"
     },
     {
       id: 6,
@@ -73,7 +75,7 @@ const DailyDua = () => {
       translation: "All praise is due to Allah.",
       meaning: "We thank Allah for keeping us healthy.",
       meaningArabic: "نشكر الله على الحفاظ على صحتنا.",
-      image: "../src/assets/sneezing.jpg"
+      icon: "🤧"
     },
     {
       id: 7,
@@ -85,7 +87,7 @@ const DailyDua = () => {
       translation: "In the name of Allah, the Most Gracious, the Most Merciful.",
       meaning: "We begin everything with Allah's name for His blessings.",
       meaningArabic: "نبدأ كل شيء باسم الله لنيل بركته.",
-      image: "../src/assets/starting.jpg"
+      icon: "🌟"
     },
     {
       id: 8,
@@ -97,7 +99,7 @@ const DailyDua = () => {
       translation: "I seek refuge in the perfect words of Allah from the evil of what He has created.",
       meaning: "We seek Allah's protection when we feel scared.",
       meaningArabic: "نطلب حماية الله عندما نشعر بالخوف.",
-      image: "../src/assets/scared.jpg"
+      icon: "🤲"
     }
   ];
 
@@ -120,21 +122,17 @@ const DailyDua = () => {
           {duas.map((dua) => (
             <div key={dua.id} className="bg-white rounded-xl shadow-md overflow-hidden transform hover:scale-[1.01] transition-transform duration-300">
               <div className="p-6">
-                <div className="flex justify-between items-start mb-4">
-                  <div>
-                    <h3 className="text-2xl font-semibold text-[#35767F]">{dua.title}</h3>
-                    <h4 className="text-xl font-arabic text-[#35767F]">{dua.titleArabic}</h4>
-                    <p className="text-gray-500 mt-1">{dua.time}</p>
-                    <p className="text-gray-500 font-arabic text-right">{dua.timeArabic}</p>
-                  </div>
-                  <div className="w-20 h-20 rounded-full overflow-hidden">
-                    <img 
-                      src={dua.image} 
-                      alt={dua.title}
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                </div>
+              <div className="text-center">
+          <div className="flex flex-col items-center gap-2">
+          <span className="text-3xl">{dua.icon}</span>
+          <h3 className="text-2xl font-semibold text-[#35767F]">{dua.title}</h3>
+           <h4 className="text-xl font-arabic text-[#35767F]">{dua.titleArabic}</h4>
+          </div>
+          <p className="text-gray-500 p-4">
+        <span>{dua.time}</span> <span className="ml-4">{dua.timeArabic}</span>
+         </p>
+
+          </div>
 
                 <div className="bg-[#F5F9FA] p-4 rounded-lg mb-4">
                   <p className="text-xl font-arabic text-right mb-2">{dua.dua}</p>
