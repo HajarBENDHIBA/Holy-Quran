@@ -97,17 +97,6 @@ const HowToWudu = () => {
             className="w-9/12 h-auto object-cover mx-auto"
           />
         </div>
-        
-        <div className="bg-white p-6 rounded-xl shadow-md mb-8">
-          <h2 className="text-2xl font-semibold text-[#35767F] mb-2">What is Wudu?</h2>
-          <h3 className="text-2xl font-arabic text-[#35767F] mb-4">ما هو الوضوء؟</h3>
-          <p className="text-gray-600 mb-2">
-            Wudu is how we clean ourselves before praying to Allah. It's like getting ready to meet someone very special!
-          </p>
-          <p className="text-gray-600 font-arabic text-right">
-            الوضوء هو كيفية تطهير أنفسنا قبل الصلاة لله. إنه مثل الاستعداد لمقابلة شخص مميز جداً!
-          </p>
-        </div>
 
         <div className="space-y-6">
           {wuduSteps.map((step) => (
