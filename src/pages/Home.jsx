@@ -11,7 +11,7 @@ const Home = ({ search }) => {
   }, []);
 
   return (
-    <div className="min-h-screen pt-18">
+    <div className="min-h-screen pt-22">
       {/* Hero Section */}
       <div
         className="relative bg-cover bg-center h-[400px] w-full flex items-center justify-center"

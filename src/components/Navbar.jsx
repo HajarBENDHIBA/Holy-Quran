@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 import { FaCalendarAlt, FaBars, FaTimes } from "react-icons/fa";
+import logo from '../assets/logo.png';
 
 const Navbar = ({ search, setSearch }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,7 +20,7 @@ const Navbar = ({ search, setSearch }) => {
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2">
           <img 
-            src="/src/assets/logo.png" 
+            src={logo} 
             alt="Quran Icon" 
             className="w-14 h-14 object-contain"
           />
