@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import wuduImage from '../../assets/wudu.jpg';
 
 const HowToWudu = () => {
   const wuduSteps = [
@@ -96,7 +97,7 @@ const HowToWudu = () => {
 
         <div className="mb-8 rounded-xl overflow-hidden shadow-lg">
           <img 
-            src="/src/assets/wudu.jpg" 
+            src={wuduImage} 
             alt="Steps of Wudu" 
             className="w-9/12 h-auto object-cover mx-auto"
           />
@@ -106,7 +107,7 @@ const HowToWudu = () => {
   <h2 className="text-2xl font-semibold text-center text-[#35767F] mb-2">What is Wudu?</h2>
   <h3 className="text-2xl font-arabic text-center text-[#35767F] mb-8">ما هو الوضوء؟</h3>
   <p className="text-gray-700 mb-2">
-  Wudu is the way Muslims cleanse themselves before praying. It’s a special preparation to stand before Allah in prayer.
+  Wudu is the way Muslims cleanse themselves before praying. It's a special preparation to stand before Allah in prayer.
   </p>
   <p className="text-gray-700 font-arabic text-right">
   الوضوء هو طهارة يقوم بها المسلمون قبل الصلاة، وهو استعداد خاص للوقوف بين يدي الله في العبادة

@@ -2,20 +2,20 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import { FaCalendarAlt } from "react-icons/fa";
+import logoImage from '../assets/logo.png';
 
 const Navbar = ({ search, setSearch }) => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-sm shadow-sm flex justify-between items-center px-8 py-4">
       <Link to="/" className="flex items-center gap-2">
         <img 
-          src="/src/assets/logo.png" 
+          src={logoImage} 
           alt="Quran Icon" 
-          className="w-14 h- 14 object-contain"
+          className="w-14 h-14 object-contain"
         />
-       <span className="text-3xl font-['Helvetica'] font-bold text-[#35767F] hover:text-[#3F8D98] transition duration-300">
-  Holy Quran
-</span>
-
+        <span className="text-3xl font-['Helvetica'] font-bold text-[#35767F] hover:text-[#3F8D98] transition duration-300">
+          Holy Quran
+        </span>
       </Link>
       <div className="flex space-x-8 items-center">
         <Link

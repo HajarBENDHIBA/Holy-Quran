@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import prayerImage from '../../assets/prayer.jpg';
 
 const HowToPray = () => {
   const prayerSteps = [
@@ -173,7 +174,7 @@ const HowToPray = () => {
 
         <div className="mb-8 rounded-xl overflow-hidden shadow-lg">
           <img 
-            src="/src/assets/prayer.jpg" 
+            src={prayerImage} 
             alt="Steps of Prayer" 
             className="w-9/12 h-auto object-cover mx-auto"
           />
