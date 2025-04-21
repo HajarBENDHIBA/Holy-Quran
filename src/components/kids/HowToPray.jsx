@@ -173,7 +173,7 @@ const HowToPray = () => {
 
         <div className="mb-8 rounded-xl overflow-hidden shadow-lg">
           <img 
-            src="../src/assets/prayer.jpg" 
+            src="../assets/prayer.jpg" 
             alt="Steps of Prayer" 
             className="w-9/12 h-auto object-cover mx-auto"
           />

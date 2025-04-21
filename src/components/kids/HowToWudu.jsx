@@ -96,7 +96,7 @@ const HowToWudu = () => {
 
         <div className="mb-8 rounded-xl overflow-hidden shadow-lg">
           <img 
-            src="../src/assets/wudu.jpg" 
+            src="../assets/wudu.jpg" 
             alt="Steps of Wudu" 
             className="w-9/12 h-auto object-cover mx-auto"
           />

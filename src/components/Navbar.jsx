@@ -8,7 +8,7 @@ const Navbar = ({ search, setSearch }) => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-sm shadow-sm flex justify-between items-center px-8 py-4">
       <Link to="/" className="flex items-center gap-2">
         <img 
-          src="../src/assets/logo.png" 
+          src="../assets/logo.png" 
           alt="Quran Icon" 
           className="w-14 h- 14 object-contain"
         />
