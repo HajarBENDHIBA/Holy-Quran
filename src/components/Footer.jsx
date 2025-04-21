@@ -16,8 +16,8 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/bookmarks" className="text-gray-600 hover:text-[#3F8D98] transition-colors duration-300">
-                  Bookmarks
+                <Link to="/islamic-calendar" className="text-gray-600 hover:text-[#3F8D98] transition-colors duration-300">
+                  Calendar
                 </Link>
               </li>
               <li>
