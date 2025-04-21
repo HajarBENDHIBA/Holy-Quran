@@ -71,9 +71,12 @@ const IslamicCalendar = () => {
 
   const renderMonth = (month) => {
     const days = generateMonthDays(currentYear, month);
-    
+  
     return (
-      <div key={month} className="bg-white rounded-lg shadow-sm p-4">
+      <div
+        key={month}
+        className="bg-white rounded-lg shadow-sm p-4 transform transition-all duration-300 hover:scale-105 hover:shadow-xl"
+      >
         <h3 className="text-lg font-semibold text-[#2C646C] mb-3">
           {monthNames[month]}
         </h3>
@@ -88,11 +91,9 @@ const IslamicCalendar = () => {
             return (
               <div
                 key={index}
-                className={`
-                  relative text-center py-1 text-sm
+                className={`relative text-center py-1 text-sm
                   ${event ? 'font-semibold' : ''}
-                  ${event ? event.color : 'text-gray-700'}
-                `}
+                  ${event ? event.color : 'text-gray-700'}`}
               >
                 {day}
                 {event && (
@@ -107,6 +108,7 @@ const IslamicCalendar = () => {
       </div>
     );
   };
+  
 
   return (
     <div className="min-h-screen bg-gray-50 pt-16 px-4 pb-8">
@@ -116,7 +118,7 @@ const IslamicCalendar = () => {
             <FaCalendarAlt className="text-5xl text-[#35767F]" />
             <div className="text-center">
               <h1 className="text-4xl font-bold text-[#2C646C] mb-2">
-                ISLAMIC HOLIDAYS IN {currentYear}
+              Islamic Calendar {currentYear}
               </h1>
               <p className="text-gray-600">Hijri Year: {hijriYear}H</p>
             </div>
@@ -130,7 +132,7 @@ const IslamicCalendar = () => {
 
         {/* Islamic Events Legend */}
         <div className="mt-8 bg-white rounded-lg shadow-sm p-6">
-          <h3 className="text-2xl font-semibold text-[#2C646C] mb-8">Islamic Holidays</h3>
+          <h3 className="text-2xl font-semibold text-[#2C646C] mb-8">ISLAMIC HOLIDAYS</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {Object.entries(islamicEvents).map(([date, event]) => (
               <div key={date} className="flex items-center gap-2">
