@@ -114,7 +114,7 @@ const DailyDua = () => {
         </Link>
         
         <div className="text-center mb-8">
-          <h1 className="text-4xl font-bold text-[#35767F] mb-2">Daily Duas for Kids</h1>
+          <h1 className="text-4xl font-bold text-[#35767F] my-12">Daily Duas for Kids</h1>
           <h2 className="text-3xl font-arabic text-[#35767F]">أدعية يومية للأطفال</h2>
         </div>
 

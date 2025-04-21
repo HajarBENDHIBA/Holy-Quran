@@ -88,12 +88,6 @@ const Duas = () => {
       reference: "Sahih Muslim 2721"
     },
     {
-      title: "Dua for Protection from Worries",
-      arabic: "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْهَمِّ وَالْحَزَنِ، وَأَعُوذُ بِكَ مِنَ الْعَجْزِ وَالْكَسَلِ، وَأَعُوذُ بِكَ مِنَ الْجُبْنِ وَالْبُخْلِ، وَأَعُوذُ بِكَ مِنْ غَلَبَةِ الدَّيْنِ وَقَهْرِ الرِّجَالِ",
-      english: "O Allah, I seek refuge in You from anxiety and sorrow, and I seek refuge in You from weakness and laziness, and I seek refuge in You from cowardice and miserliness, and I seek refuge in You from being overcome by debt and overpowered by men.",
-      reference: "Sahih al-Bukhari 6369"
-    },
-    {
       title: "Dua for Beneficial Knowledge",
       arabic: "اللَّهُمَّ إِنِّي أَسْأَلُكَ عِلْمًا نَافِعًا، وَرِزْقًا طَيِّبًا، وَعَمَلًا مُتَقَبَّلًا",
       english: "O Allah, I ask You for beneficial knowledge, good provision, and accepted deeds.",
@@ -172,20 +166,8 @@ const Duas = () => {
       reference: "Sunan Abu Dawood 1169"
     },
     {
-      title: "Dua for Protection from Evil Eye",
-      arabic: "أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ",
-      english: "I seek refuge in the perfect words of Allah from the evil of what He has created.",
-      reference: "Sahih Muslim 2708"
-    },
-    {
-      title: "Dua for Breaking Fast",
-      arabic: "اللَّهُمَّ لَكَ صُمْتُ وَعَلَى رِزْقِكَ أَفْطَرْتُ",
-      english: "O Allah, for You I have fasted and with Your provision I have broken my fast.",
-      reference: "Sunan Abu Dawood 2358"
-    },
-    {
       title: "Dua for Entering the Market",
-      arabic: "لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ، يُحْيِي وَيُمِيتُ، وَهُوَ حَيٌّ لَا يَمُوتُ، فِي يَدِهِ الْخَيْرُ، وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ",
+      arabic: "لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ، يُحْيِي وَيُمِيتُ، وَهُوَ حَيٌّ لَا يَمُوتُ، بِيَدِهِ الْخَيْرُ، وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ",
       english: "There is no god but Allah, alone, without partner. To Him belongs the dominion and to Him belongs all praise. He gives life and causes death, and He is living and does not die. In His hand is all good, and He has power over all things.",
       reference: "Sunan al-Tirmidhi 3428"
     },
@@ -303,12 +285,6 @@ const Duas = () => {
       english: "O Allah, I seek refuge in You from evil companionship.",
       reference: "Sunan Abu Dawood 1547"
     },
-    {
-      title: "Dua for Protection from Evil Thoughts",
-      arabic: "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْهَمِّ وَالْحَزَنِ، وَالْعَجْزِ وَالْكَسَلِ، وَالْبُخْلِ وَالْجُبْنِ، وَضَلَعِ الدَّيْنِ وَغَلَبَةِ الرِّجَالِ",
-      english: "O Allah, I seek refuge in You from anxiety and sorrow, from incapacity and laziness, from miserliness and cowardice, from being overcome by debt and overpowered by men.",
-      reference: "Sahih al-Bukhari 6369"
-    }
   ];
 
   return (

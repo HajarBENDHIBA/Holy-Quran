@@ -73,7 +73,7 @@ const Tajweed = () => {
         { text: ["أَ", "نْ", " ", "تَ", "قُ", "وْ", "لَ"], highlight: [1], translation: "That you say" },
         { text: ["مَ", "نْ", " ", "صَ", "بَ", "رَ"], highlight: [1], translation: "Whoever is patient" }
       ],
-      explanation: "Occurs when noon sakinah or tanween is followed by any of the 15 letters of ikhfa.",
+      explanation: "Occurs when noon sakinah or tanween is followed by any of the 15 letters of ikhfa: (ث، ج، د، ذ، ز، س، ش، ص، ض، ط، ظ، ف، ق، ك)",
       color: "#800080",
       letterColor: "#9C27B0"
     },

@@ -66,7 +66,7 @@ const HowToWudu = () => {
       title: "Wipe Ears",
       titleArabic: "مسح الأذنين",
       description: "Clean your ears with wet fingers",
-      descriptionArabic: "نظف أذنيك بأصابع مبللة",
+      descriptionArabic: " نظف أذنيك بأصابع مبللة مرة واحدة",
       tip: "Use your index fingers for inside and thumbs for outside"
     },
     {
@@ -103,15 +103,15 @@ const HowToWudu = () => {
         </div>
         
         <div className="bg-white p-6 rounded-xl shadow-md mb-8">
-          <h2 className="text-2xl font-semibold text-[#35767F] mb-2">What is Wudu?</h2>
-          <h3 className="text-2xl font-arabic text-[#35767F] mb-4">ما هو الوضوء؟</h3>
-          <p className="text-gray-600 mb-2">
-            Wudu is how we clean ourselves before praying to Allah. It's like getting ready to meet someone very special!
-          </p>
-          <p className="text-gray-600 font-arabic text-right">
-            الوضوء هو كيفية تطهير أنفسنا قبل الصلاة لله. إنه مثل الاستعداد لمقابلة شخص مميز جداً!
-          </p>
-        </div>
+  <h2 className="text-2xl font-semibold text-center text-[#35767F] mb-2">What is Wudu?</h2>
+  <h3 className="text-2xl font-arabic text-center text-[#35767F] mb-8">ما هو الوضوء؟</h3>
+  <p className="text-gray-700 mb-2">
+  Wudu is the way Muslims cleanse themselves before praying. It’s a special preparation to stand before Allah in prayer.
+  </p>
+  <p className="text-gray-700 font-arabic text-right">
+  الوضوء هو طهارة يقوم بها المسلمون قبل الصلاة، وهو استعداد خاص للوقوف بين يدي الله في العبادة
+  </p>
+</div>
 
         <div className="space-y-6">
           {wuduSteps.map((step) => (
@@ -151,14 +151,14 @@ const HowToWudu = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <ul className="list-disc list-inside space-y-2">
               <li>Always start with Bismillah</li>
-              <li>Do everything three times (except wiping head)</li>
+              <li>Do everything three times (except wiping head and wiping ears)</li>
               <li>Start from the right side</li>
               <li>Make sure water reaches everywhere</li>
               <li>Don't waste water</li>
             </ul>
             <ul className="list-disc list-inside space-y-2 text-right font-arabic">
               <li>ابدأ دائماً ببسم الله</li>
-              <li>كرر كل خطوة ثلاث مرات (ما عدا مسح الرأس)</li>
+              <li>كرر كل خطوة ثلاث مرات (ما عدا مسح الرأس و مسح الأذنين)</li>
               <li>ابدأ من الجانب الأيمن</li>
               <li>تأكد من وصول الماء إلى كل مكان</li>
               <li>لا تسرف في الماء</li>

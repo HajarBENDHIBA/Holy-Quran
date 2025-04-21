@@ -8,7 +8,7 @@ const ProphetStories = () => {
       title: "Prophet Adam (AS)",
       titleArabic: "نبي الله آدم عليه السلام",
       description: "Prophet Adam (AS) was the first human created by Allah from clay. He was taught the names of all things and lived in Paradise with his wife, Hawwa (Eve). After being tempted by Iblis (Satan), they ate from the forbidden tree and were sent to Earth. This story teaches us about human nature, repentance, and Allah's mercy.",
-      descriptionArabic: "كان النبي آدم عليه السلام أول إنسان خلقه الله من طين. علمه أسماء كل شيء وعاش في الجنة مع زوجته حواء. بعد إغواء إبليس، أكلا من الشجرة المحرمة وأرسلا إلى الأرض. هذه القصة تعلمنا عن الطبيعة البشرية والتوبة ورحمة الله.",
+      descriptionArabic: "كان النبي آدم عليه السلام أول إنسان خلقه الله من طين. علمه أسماء كل شيء وعاش في الجنة مع زوجته حواء. بعد إغواء إبليس، أكلا من الشجرة المحرمة وأرسلا إلى الأرض. هذه القصة تعلمنا عن الطبيعة البشرية والتوبة ورحمة الله",
       image: "../src/assets/adam.jpg",
       lessons: [
         "Allah created humans with knowledge and wisdom",
@@ -30,7 +30,7 @@ const ProphetStories = () => {
       title: "Prophet Nuh (AS)",
       titleArabic: "نبي الله نوح عليه السلام",
       description: "Prophet Nuh (AS) preached to his people for 950 years, calling them to worship Allah alone. Despite his efforts, only a few believed. Allah commanded him to build an ark, and when the flood came, he and the believers were saved while the disbelievers perished. This story teaches us about patience, perseverance, and trust in Allah.",
-      descriptionArabic: "دعا النبي نوح عليه السلام قومه لمدة 950 عاماً، يدعوهم لعبادة الله وحده. رغم جهوده، آمن القليل فقط. أمره الله ببناء السفينة، وعندما جاء الطوفان، نجا هو والمؤمنون بينما هلك الكافرون. هذه القصة تعلمنا الصبر والمثابرة والثقة في الله.",
+      descriptionArabic: "دعا النبي نوح عليه السلام قومه لمدة 950 عاماً، يدعوهم لعبادة الله وحده. رغم جهوده، آمن القليل فقط. أمره الله ببناء السفينة، وعندما جاء الطوفان، نجا هو والمؤمنون بينما هلك الكافرون. هذه القصة تعلمنا الصبر والمثابرة والثقة في الله",
       image: "../src/assets/nuh.jpg",
       lessons: [
         "Be patient in calling people to Allah",
@@ -52,7 +52,7 @@ const ProphetStories = () => {
       title: "Prophet Ibrahim (AS)",
       titleArabic: "نبي الله إبراهيم عليه السلام",
       description: "Prophet Ibrahim (AS) was known as the friend of Allah. He searched for the truth from a young age, breaking his people's idols. He was thrown into fire but was saved by Allah's command. He built the Kaaba with his son Ismail and was tested with the command to sacrifice his son. This story teaches us about monotheism, sacrifice, and complete trust in Allah.",
-      descriptionArabic: "كان النبي إبراهيم عليه السلام معروفاً بخليل الله. بحث عن الحقيقة منذ صغره، وكسر أصنام قومه. ألقي في النار لكن الله أنجاه بأمره. بنى الكعبة مع ابنه إسماعيل واختبر بأمر التضحية بابنه. هذه القصة تعلمنا التوحيد والتضحية والثقة الكاملة في الله.",
+      descriptionArabic: "كان النبي إبراهيم عليه السلام معروفاً بخليل الله. بحث عن الحقيقة منذ صغره، وكسر أصنام قومه. ألقي في النار لكن الله أنجاه بأمره. بنى الكعبة مع ابنه إسماعيل واختبر بأمر التضحية بابنه. هذه القصة تعلمنا التوحيد والتضحية والثقة الكاملة في الله",
       image: "../src/assets/ibrahim.jpg",
       lessons: [
         "Always seek the truth and reject falsehood",
@@ -74,7 +74,7 @@ const ProphetStories = () => {
       title: "Prophet Yusuf (AS)",
       titleArabic: "نبي الله يوسف عليه السلام",
       description: "Prophet Yusuf (AS) was the beloved son of Prophet Yaqub. His brothers threw him in a well out of jealousy. He was sold into slavery in Egypt, where he faced many trials including false imprisonment. Through his wisdom and trust in Allah, he became a minister in Egypt and later forgave his brothers. This story teaches us about patience, forgiveness, and trust in Allah's plan.",
-      descriptionArabic: "كان النبي يوسف عليه السلام الابن المحبوب للنبي يعقوب. ألقاه إخوته في البئر بدافع الغيرة. بيع عبداً في مصر، حيث واجه محن كثيرة بما في ذلك السجن ظلماً. من خلال حكمته وثقته في الله، أصبح وزيراً في مصر وسامح إخوته لاحقاً. هذه القصة تعلمنا الصبر والمغفرة والثقة في خطة الله.",
+      descriptionArabic: "كان النبي يوسف عليه السلام الابن المحبوب للنبي يعقوب. ألقاه إخوته في البئر بدافع الغيرة. بيع عبداً في مصر، حيث واجه محن كثيرة بما في ذلك السجن ظلماً. من خلال حكمته وثقته في الله، أصبح وزيراً في مصر وسامح إخوته لاحقاً. هذه القصة تعلمنا الصبر والمغفرة والثقة في خطة الله",
       image: "../src/assets/yusuf.jpg",
       lessons: [
         "Be patient in difficult times",
@@ -96,7 +96,7 @@ const ProphetStories = () => {
       title: "Prophet Musa (AS)",
       titleArabic: "نبي الله موسى عليه السلام",
       description: "Prophet Musa (AS) was born during Pharaoh's reign when male babies were being killed. He was saved and raised in Pharaoh's palace. After accidentally killing an Egyptian, he fled to Madyan. Allah chose him to free the Children of Israel from Pharaoh's oppression. He received the Torah and led his people through many miracles. This story teaches us about justice, leadership, and reliance on Allah.",
-      descriptionArabic: "ولد النبي موسى عليه السلام في عهد فرعون عندما كان يتم قتل الأطفال الذكور. نجا وتربى في قصر فرعون. بعد قتل مصري عن طريق الخطأ، هرب إلى مدين. اختاره الله لتحرير بني إسرائيل من ظلم فرعون. تلقى التوراة وقاد قومه من خلال معجزات كثيرة. هذه القصة تعلمنا العدل والقيادة والاعتماد على الله.",
+      descriptionArabic: "ولد النبي موسى عليه السلام في عهد فرعون عندما كان يتم قتل الأطفال الذكور. نجا وتربى في قصر فرعون. بعد قتل مصري عن طريق الخطأ، هرب إلى مدين. اختاره الله لتحرير بني إسرائيل من ظلم فرعون. تلقى التوراة وقاد قومه من خلال معجزات كثيرة. هذه القصة تعلمنا العدل والقيادة والاعتماد على الله",
       image: "../src/assets/musa.jpg",
       lessons: [
         "Stand up against oppression and injustice",
@@ -118,7 +118,7 @@ const ProphetStories = () => {
       title: "Prophet Isa (AS)",
       titleArabic: "نبي الله عيسى عليه السلام",
       description: "Prophet Isa (AS) was born miraculously to Maryam (AS) without a father. He spoke in the cradle and performed many miracles by Allah's permission, including healing the blind and raising the dead. He called people to worship Allah alone and was given the Injeel (Gospel). This story teaches us about Allah's power, miracles, and the importance of monotheism.",
-      descriptionArabic: "ولد النبي عيسى عليه السلام معجزة لمريم عليها السلام بدون أب. تكلم في المهد وأجرى معجزات كثيرة بإذن الله، بما في ذلك شفاء الأعمى وإحياء الموتى. دعا الناس لعبادة الله وحده وأعطي الإنجيل. هذه القصة تعلمنا عن قدرة الله والمعجزات وأهمية التوحيد.",
+      descriptionArabic: "ولد النبي عيسى عليه السلام معجزة لمريم عليها السلام بدون أب. تكلم في المهد وأجرى معجزات كثيرة بإذن الله، بما في ذلك شفاء الأعمى وإحياء الموتى. دعا الناس لعبادة الله وحده وأعطي الإنجيل. هذه القصة تعلمنا عن قدرة الله والمعجزات وأهمية التوحيد",
       image: "../src/assets/isa.jpg",
       lessons: [
         "Allah's power is beyond human understanding",
@@ -140,7 +140,7 @@ const ProphetStories = () => {
       title: "Prophet Muhammad (SAW)",
       titleArabic: "سيدنا محمد صلى الله عليه وسلم",
       description: "Prophet Muhammad (SAW) is the final messenger of Allah. Born in Makkah, he received revelation at age 40. Despite persecution, he spread Islam with patience and wisdom. He established the first Islamic state in Madinah and completed his mission of spreading Allah's message. His life is the perfect example for all Muslims. This story teaches us about perseverance, leadership, and complete submission to Allah.",
-      descriptionArabic: "النبي محمد صلى الله عليه وسلم هو خاتم الأنبياء والمرسلين. ولد في مكة، وتلقى الوحي في سن الأربعين. رغم الاضطهاد، نشر الإسلام بالصبر والحكمة. أسس أول دولة إسلامية في المدينة وأكمل مهمته في نشر رسالة الله. حياته المثالية هي القدوة لجميع المسلمين. هذه القصة تعلمنا المثابرة والقيادة والاستسلام الكامل لله.",
+      descriptionArabic: "النبي محمد صلى الله عليه وسلم هو خاتم الأنبياء والمرسلين. ولد في مكة، وتلقى الوحي في سن الأربعين. رغم الاضطهاد، نشر الإسلام بالصبر والحكمة. أسس أول دولة إسلامية في المدينة وأكمل مهمته في نشر رسالة الله. حياته المثالية هي القدوة لجميع المسلمين. هذه القصة تعلمنا المثابرة والقيادة والاستسلام الكامل لله",
       image: "../src/assets/muhammad.jpg",
       lessons: [
         "Be patient in the face of difficulties",
@@ -162,7 +162,7 @@ const ProphetStories = () => {
       title: "Prophet Idris (AS)",
       titleArabic: "نبي الله إدريس عليه السلام",
       description: "Prophet Idris (AS) was known for his wisdom and knowledge. He was the first to write with a pen and taught people many useful skills. He was raised to a high status by Allah and is mentioned in the Quran for his patience and righteousness. This story teaches us about the importance of knowledge and wisdom in Islam.",
-      descriptionArabic: "كان النبي إدريس عليه السلام معروفاً بحكمته وعلمه. كان أول من كتب بالقلم وعلم الناس مهارات مفيدة كثيرة. رفعه الله إلى مكانة عالية وذكر في القرآن لصبره وتقواه. هذه القصة تعلمنا أهمية العلم والحكمة في الإسلام.",
+      descriptionArabic: "كان النبي إدريس عليه السلام معروفاً بحكمته وعلمه. كان أول من كتب بالقلم وعلم الناس مهارات مفيدة كثيرة. رفعه الله إلى مكانة عالية وذكر في القرآن لصبره وتقواه. هذه القصة تعلمنا أهمية العلم والحكمة في الإسلام",
       image: "../src/assets/idris.jpg",
       lessons: [
         "Seek knowledge and wisdom throughout your life",
@@ -184,7 +184,7 @@ const ProphetStories = () => {
       title: "Prophet Hud (AS)",
       titleArabic: "نبي الله هود عليه السلام",
       description: "Prophet Hud (AS) was sent to the people of 'Ad, who were known for their strength and arrogance. They built great buildings and were proud of their power. Hud called them to worship Allah alone, but they rejected him. A terrible windstorm destroyed them as punishment. This story teaches us about the dangers of arrogance and the importance of humility.",
-      descriptionArabic: "أرسل النبي هود عليه السلام إلى قوم عاد، الذين كانوا معروفين بقوتهم وتكبرهم. بنوا مبانٍ عظيمة وكانوا فخورين بقوتهم. دعاهم هود لعبادة الله وحده، لكنهم رفضوه. دمرتهم عاصفة رياح رهيبة كعقاب. هذه القصة تعلمنا مخاطر التكبر وأهمية التواضع.",
+      descriptionArabic: "أرسل النبي هود عليه السلام إلى قوم عاد، الذين كانوا معروفين بقوتهم وتكبرهم. بنوا مبانٍ عظيمة وكانوا فخورين بقوتهم. دعاهم هود لعبادة الله وحده، لكنهم رفضوه. دمرتهم عاصفة رياح رهيبة كعقاب. هذه القصة تعلمنا مخاطر التكبر وأهمية التواضع",
       image: "../src/assets/hud.jpg",
       lessons: [
         "Arrogance leads to destruction",
@@ -206,7 +206,7 @@ const ProphetStories = () => {
       title: "Prophet Salih (AS)",
       titleArabic: "نبي الله صالح عليه السلام",
       description: "Prophet Salih (AS) was sent to the people of Thamud, who were skilled in carving homes out of mountains. Allah gave them a miraculous she-camel as a sign, but they killed it. An earthquake destroyed them as punishment. This story teaches us about the importance of respecting Allah's signs and being grateful for His blessings.",
-      descriptionArabic: "أرسل النبي صالح عليه السلام إلى قوم ثمود، الذين كانوا ماهرين في نحت المنازل من الجبال. أعطاهم الله ناقة معجزة كآية، لكنهم قتلوها. دمرهم زلزال كعقاب. هذه القصة تعلمنا أهمية احترام آيات الله والشكر على نعمه.",
+      descriptionArabic: "أرسل النبي صالح عليه السلام إلى قوم ثمود، الذين كانوا ماهرين في نحت المنازل من الجبال. أعطاهم الله ناقة معجزة كآية، لكنهم قتلوها. دمرهم زلزال كعقاب. هذه القصة تعلمنا أهمية احترام آيات الله والشكر على نعمه",
       image: "../src/assets/salih.jpg",
       lessons: [
         "Respect Allah's signs and miracles",
@@ -228,7 +228,7 @@ const ProphetStories = () => {
       title: "Prophet Lut (AS)",
       titleArabic: "نبي الله لوط عليه السلام",
       description: "Prophet Lut (AS) was sent to the people of Sodom, who were committing terrible sins. He called them to stop their evil deeds, but they refused. Angels came to Lut and his family, helping them escape before the city was destroyed. This story teaches us about the importance of standing against evil and maintaining moral values.",
-      descriptionArabic: "أرسل النبي لوط عليه السلام إلى قوم سدوم، الذين كانوا يرتكبون ذنوباً فظيعة. دعاهم للتوقف عن أفعالهم الشريرة، لكنهم رفضوا. جاءت الملائكة إلى لوط وعائلته، وساعدتهم على الهروب قبل تدمير المدينة. هذه القصة تعلمنا أهمية الوقوف ضد الشر والحفاظ على القيم الأخلاقية.",
+      descriptionArabic: "أرسل النبي لوط عليه السلام إلى قوم سدوم، الذين كانوا يرتكبون ذنوباً فظيعة. دعاهم للتوقف عن أفعالهم الشريرة، لكنهم رفضوا. جاءت الملائكة إلى لوط وعائلته، وساعدتهم على الهروب قبل تدمير المدينة. هذه القصة تعلمنا أهمية الوقوف ضد الشر والحفاظ على القيم الأخلاقية",
       image: "../src/assets/hud.jpg",
       lessons: [
         "Stand firm against evil and immorality",
@@ -250,7 +250,7 @@ const ProphetStories = () => {
       title: "Prophet Shu'ayb (AS)",
       titleArabic: "نبي الله شعيب عليه السلام",
       description: "Prophet Shu'ayb (AS) was sent to the people of Madyan, who were known for cheating in business and giving short measure. He called them to be honest and fair in their dealings, but they rejected him. An earthquake destroyed them as punishment. This story teaches us about the importance of honesty and fairness in business.",
-      descriptionArabic: "أرسل النبي شعيب عليه السلام إلى قوم مدين، الذين كانوا معروفين بالغش في التجارة وتقصير المكيال. دعاهم إلى الصدق والعدل في معاملاتهم، لكنهم رفضوه. دمرهم زلزال كعقاب. هذه القصة تعلمنا أهمية الصدق والعدل في التجارة.",
+      descriptionArabic: "أرسل النبي شعيب عليه السلام إلى قوم مدين، الذين كانوا معروفين بالغش في التجارة وتقصير المكيال. دعاهم إلى الصدق والعدل في معاملاتهم، لكنهم رفضوه. دمرهم زلزال كعقاب. هذه القصة تعلمنا أهمية الصدق والعدل في التجارة",
       image: "../src/assets/shuaib.jpg",
       lessons: [
         "Be honest in all your dealings",
@@ -272,7 +272,7 @@ const ProphetStories = () => {
       title: "Prophet Ayyub (AS)",
       titleArabic: "نبي الله أيوب عليه السلام",
       description: "Prophet Ayyub (AS) was a wealthy and pious man whom Allah tested with severe illness and loss of wealth and family. Despite his suffering, he remained patient and grateful to Allah. Allah eventually restored his health and blessings. This story teaches us about patience during trials and trust in Allah's wisdom.",
-      descriptionArabic: "كان النبي أيوب عليه السلام رجلاً غنياً وتقياً اختبره الله بمرض شديد وفقدان المال والعائلة. رغم معاناته، بقي صبوراً وشاكراً لله. أعاد الله صحته ونعمه في النهاية. هذه القصة تعلمنا الصبر خلال المحن والثقة في حكمة الله.",
+      descriptionArabic: "كان النبي أيوب عليه السلام رجلاً غنياً وتقياً اختبره الله بمرض شديد وفقدان المال والعائلة. رغم معاناته، بقي صبوراً وشاكراً لله. أعاد الله صحته ونعمه في النهاية. هذه القصة تعلمنا الصبر خلال المحن والثقة في حكمة الله",
       image: "../src/assets/ayub.jpg",
       lessons: [
         "Be patient during difficult times",
@@ -294,7 +294,7 @@ const ProphetStories = () => {
       title: "Prophet Yunus (AS)",
       titleArabic: "نبي الله يونس عليه السلام",
       description: "Prophet Yunus (AS) was sent to the people of Nineveh. When they rejected his message, he left them in frustration. A whale swallowed him, and in the darkness of its belly, he prayed to Allah for forgiveness. Allah saved him and his people eventually believed. This story teaches us about repentance and never losing hope in Allah's mercy.",
-      descriptionArabic: "أرسل النبي يونس عليه السلام إلى قوم نينوى. عندما رفضوا رسالته، تركهم محبطاً. ابتلعه حوت، وفي ظلمة بطنه، دعا الله طالباً المغفرة. أنجاه الله وآمن قومه في النهاية. هذه القصة تعلمنا التوبة وعدم فقدان الأمل في رحمة الله.",
+      descriptionArabic: "أرسل النبي يونس عليه السلام إلى قوم نينوى. عندما رفضوا رسالته، تركهم محبطاً. ابتلعه حوت، وفي ظلمة بطنه، دعا الله طالباً المغفرة. أنجاه الله وآمن قومه في النهاية. هذه القصة تعلمنا التوبة وعدم فقدان الأمل في رحمة الله",
       image: "../src/assets/yunus.jpg",
       lessons: [
         "Never give up hope in Allah's mercy",
@@ -316,7 +316,7 @@ const ProphetStories = () => {
       title: "Prophet Zakariya (AS)",
       titleArabic: "نبي الله زكريا عليه السلام",
       description: "Prophet Zakariya (AS) was a righteous man who prayed for a child in his old age. Allah granted him Yahya (AS), who became a prophet. Zakariya was known for his devotion to Allah and his care for Maryam (AS). This story teaches us about the power of sincere prayer and trust in Allah's timing.",
-      descriptionArabic: "كان النبي زكريا عليه السلام رجلاً صالحاً دعا الله أن يرزقه ولداً في شيخوخته. استجاب الله دعاءه ورزقه يحيى عليه السلام، الذي أصبح نبياً. كان زكريا معروفاً بتقواه واهتمامه بمريم عليها السلام. هذه القصة تعلمنا قوة الدعاء الصادق والثقة في توقيت الله.",
+      descriptionArabic: "كان النبي زكريا عليه السلام رجلاً صالحاً دعا الله أن يرزقه ولداً في شيخوخته. استجاب الله دعاءه ورزقه يحيى عليه السلام، الذي أصبح نبياً. كان زكريا معروفاً بتقواه واهتمامه بمريم عليها السلام. هذه القصة تعلمنا قوة الدعاء الصادق والثقة في توقيت الله",
       image: "../src/assets/zakaria.jpg",
       lessons: [
         "Pray sincerely to Allah",
@@ -416,9 +416,9 @@ const ProphetStories = () => {
             </div>
             <div className="text-right font-arabic">
               <p className="mb-4">
-                تعلم قصص الأنبياء يساعدنا في فهم كيفية عيش حياتنا وفقاً للتعاليم الإسلامية.
+                تعلم قصص الأنبياء يساعدنا في فهم كيفية عيش حياتنا وفقاً للتعاليم الإسلامية
                 قصصهم تعلمنا دروساً مهمة عن الإيمان والصبر والثقة في الله. واجه كل نبي تحديات
-                فريدة لكنه بقي ثابتاً في مهمته لنشر رسالة الله.
+                فريدة لكنه بقي ثابتاً في مهمته لنشر رسالة الله
               </p>
               <ul className="list-disc list-inside space-y-2">
                 <li>تعلم من أمثلتهم في الصبر والمثابرة</li>

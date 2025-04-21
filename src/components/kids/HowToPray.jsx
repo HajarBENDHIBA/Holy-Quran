@@ -180,13 +180,13 @@ const HowToPray = () => {
         </div>
         
         <div className="bg-white p-6 rounded-xl shadow-md mb-8">
-          <h2 className="text-2xl font-semibold text-[#35767F] mb-2">What is Prayer?</h2>
-          <h3 className="text-2xl font-arabic text-[#35767F] mb-4">ما هي الصلاة؟</h3>
+          <h2 className="text-2xl font-semibold text-center text-[#35767F] mb-2">What is Prayer?</h2>
+          <h3 className="text-2xl font-arabic text-center text-[#35767F] mb-4">ما هي الصلاة؟</h3>
           <p className="text-gray-600 mb-2">
             Prayer is our special way of talking to Allah. It's like having a conversation with our Creator five times a day!
           </p>
           <p className="text-gray-600 font-arabic text-right">
-            الصلاة هي طريقتنا الخاصة للتحدث مع الله. إنها مثل إجراء محادثة مع خالقنا خمس مرات في اليوم!
+            الصلاة هي طريقتنا الخاصة للتحدث مع الله. إنها مثل إجراء محادثة مع خالقنا خمس مرات في اليوم
           </p>
         </div>
 

@@ -10,7 +10,7 @@ const IslamicAnimals = () => {
       description: "Learn about how a spider helped protect Prophet Muhammad (PBUH) in the cave of Thawr.",
       descriptionArabic: "تعرف على كيف ساعد العنكبوت في حماية النبي محمد ﷺ في غار ثور",
       story: "During the Hijra (migration) to Medina, Prophet Muhammad (PBUH) and Abu Bakr took refuge in the Cave of Thawr. Allah commanded a spider to spin its web across the cave's entrance. When the Quraysh pursuers reached the cave, they saw the spider's web and thought no one could have entered recently without breaking it. This small spider, through Allah's will, played a crucial role in protecting our beloved Prophet (PBUH). The story teaches us that Allah can use even the smallest of His creatures to do great things, and that we should never underestimate anything Allah has created.",
-      storyArabic: "خلال الهجرة إلى المدينة المنورة، لجأ النبي محمد ﷺ وأبو بكر إلى غار ثور. أمر الله عز وجل عنكبوتاً أن تنسج شبكتها على مدخل الغار. عندما وصل مطاردو قريش إلى الغار، رأوا نسيج العنكبوت وظنوا أنه لا يمكن لأحد أن يكون قد دخل مؤخراً دون أن يكسر هذا النسيج. هذا العنكبوت الصغير، بمشيئة الله، لعب دوراً حاسماً في حماية نبينا الحبيب ﷺ. تعلمنا القصة أن الله يمكن أن يستخدم حتى أصغر مخلوقاته لفعل أشياء عظيمة، وأنه لا ينبغي لنا أبداً أن نستهين بأي شيء خلقه الله.",
+      storyArabic: "خلال الهجرة إلى المدينة المنورة، لجأ النبي محمد ﷺ وأبو بكر إلى غار ثور. أمر الله عز وجل عنكبوتاً أن تنسج شبكتها على مدخل الغار. عندما وصل مطاردو قريش إلى الغار، رأوا نسيج العنكبوت وظنوا أنه لا يمكن لأحد أن يكون قد دخل مؤخراً دون أن يكسر هذا النسيج. هذا العنكبوت الصغير، بمشيئة الله، لعب دوراً حاسماً في حماية نبينا الحبيب ﷺ. تعلمنا القصة أن الله يمكن أن يستخدم حتى أصغر مخلوقاته لفعل أشياء عظيمة، وأنه لا ينبغي لنا أبداً أن نستهين بأي شيء خلقه الله",
       category: "Prophet's Stories"
     },
     {
@@ -20,7 +20,7 @@ const IslamicAnimals = () => {
       description: "The amazing story of Prophet Yunus (AS) and the whale that swallowed him.",
       descriptionArabic: "القصة المدهشة للنبي يونس عليه السلام والحوت الذي ابتلعه",
       story: "Prophet Yunus (AS) was sent to guide the people of Nineveh. When they rejected his message, he left in anger without waiting for Allah's command. During his journey by sea, a great storm arose. The sailors cast lots to decide who to throw overboard to lighten the ship, and Prophet Yunus was chosen. A huge whale swallowed him, but by Allah's mercy, the whale did not harm him. Inside the whale's belly, in complete darkness, Prophet Yunus (AS) made his famous supplication: 'There is no god but You, Glory be to You, I have been among the wrongdoers.' Allah commanded the whale to safely release him on the shore. This story teaches us about repentance, patience, and Allah's infinite mercy.",
-      storyArabic: "أُرسل النبي يونس عليه السلام لهداية أهل نينوى. عندما رفضوا رسالته، غادر غاضباً دون انتظار أمر الله. خلال رحلته في البحر، هبت عاصفة شديدة. اقترع البحارة ليقرروا من يلقون في البحر لتخفيف حمولة السفينة، فوقع الاختيار على النبي يونس. ابتلعه حوت كبير، ولكن برحمة الله، لم يؤذه الحوت. داخل بطن الحوت، في الظلمات، دعا النبي يونس دعاءه المشهور: 'لا إله إلا أنت سبحانك إني كنت من الظالمين.' أمر الله الحوت أن يلفظه سالماً على الشاطئ. تعلمنا هذه القصة عن التوبة والصبر ورحمة الله الواسعة.",
+      storyArabic: "أُرسل النبي يونس عليه السلام لهداية أهل نينوى. عندما رفضوا رسالته، غادر غاضباً دون انتظار أمر الله. خلال رحلته في البحر، هبت عاصفة شديدة. اقترع البحارة ليقرروا من يلقون في البحر لتخفيف حمولة السفينة، فوقع الاختيار على النبي يونس. ابتلعه حوت كبير، ولكن برحمة الله، لم يؤذه الحوت. داخل بطن الحوت، في الظلمات، دعا النبي يونس دعاءه المشهور: 'لا إله إلا أنت سبحانك إني كنت من الظالمين.' أمر الله الحوت أن يلفظه سالماً على الشاطئ. تعلمنا هذه القصة عن التوبة والصبر ورحمة الله الواسعة",
       category: "Prophet's Stories"
     },
     {
@@ -30,7 +30,7 @@ const IslamicAnimals = () => {
       description: "Discover how Prophet Sulaiman (AS) could talk to animals and the wise ant's warning.",
       descriptionArabic: "اكتشف كيف كان النبي سليمان عليه السلام يتحدث مع الحيوانات وتحذير النملة الحكيمة",
       story: "Prophet Sulaiman (AS) was blessed with the ability to understand the language of animals. One day, as he was marching with his mighty army, they approached a valley of ants. One ant, seeing them coming, called out to the other ants: 'O ants! Enter your dwellings, lest Sulaiman and his army crush you unknowingly!' Prophet Sulaiman (AS) smiled at her words and was grateful to Allah for this blessing. He appreciated the ant's wisdom and leadership in protecting her community. This story teaches us about responsibility, caring for others, and how even the smallest creatures have their own communities and intelligence.",
-      storyArabic: "أنعم الله على النبي سليمان عليه السلام بالقدرة على فهم لغة الحيوانات. في يوم من الأيام، بينما كان يسير مع جيشه القوي، اقتربوا من وادي النمل. نملة واحدة، عندما رأتهم قادمين، نادت على النمل الآخر: 'يا أيها النمل ادخلوا مساكنكم لا يحطمنكم سليمان وجنوده وهم لا يشعرون!' تبسم النبي سليمان لكلماتها وشكر الله على هذه النعمة. قدّر حكمة النملة وقيادتها في حماية مجتمعها. تعلمنا هذه القصة عن المسؤولية والاهتمام بالآخرين، وكيف أن حتى أصغر المخلوقات لديها مجتمعاتها وذكاؤها.",
+      storyArabic: "أنعم الله على النبي سليمان عليه السلام بالقدرة على فهم لغة الحيوانات. في يوم من الأيام، بينما كان يسير مع جيشه القوي، اقتربوا من وادي النمل. نملة واحدة، عندما رأتهم قادمين، نادت على النمل الآخر: 'يا أيها النمل ادخلوا مساكنكم لا يحطمنكم سليمان وجنوده وهم لا يشعرون!' تبسم النبي سليمان لكلماتها وشكر الله على هذه النعمة. قدّر حكمة النملة وقيادتها في حماية مجتمعها. تعلمنا هذه القصة عن المسؤولية والاهتمام بالآخرين، وكيف أن حتى أصغر المخلوقات لديها مجتمعاتها وذكاؤها",
       category: "Prophet's Stories"
     },
     {
@@ -40,7 +40,7 @@ const IslamicAnimals = () => {
       description: "Learn about the special bird that helped Prophet Sulaiman (AS) find the Queen of Sheba.",
       descriptionArabic: "تعرف على الطائر المميز الذي ساعد النبي سليمان في العثور على ملكة سبأ",
       story: "The Hoopoe bird was one of Prophet Sulaiman's (AS) loyal subjects. One day, when Prophet Sulaiman noticed the bird's absence, he said he would punish it unless it had a good reason. When the Hoopoe returned, it brought important news about the Kingdom of Sheba and its queen who worshipped the sun. The bird described their magnificent throne and kingdom but pointed out their wrong beliefs. This information led to the famous story of the Queen of Sheba's guidance to Islam. The Hoopoe's story teaches us that size doesn't matter when it comes to doing important work, and that we should use our abilities to guide others to the truth.",
-      storyArabic: "كان الهدهد أحد رعايا النبي سليمان عليه السلام المخلصين. في يوم من الأيام، عندما لاحظ النبي سليمان غياب الطائر، قال إنه سيعاقبه ما لم يكن لديه سبب وجيه. عندما عاد الهدهد، جلب أخباراً مهمة عن مملكة سبأ وملكتها التي كانت تعبد الشمس. وصف الطائر عرشهم ومملكتهم العظيمة لكنه أشار إلى معتقداتهم الخاطئة. أدت هذه المعلومات إلى القصة الشهيرة عن هداية ملكة سبأ إلى الإسلام. تعلمنا قصة الهدهد أن الحجم لا يهم عندما يتعلق الأمر بالقيام بعمل مهم، وأنه يجب علينا استخدام قدراتنا لهداية الآخرين إلى الحق.",
+      storyArabic: "كان الهدهد أحد رعايا النبي سليمان عليه السلام المخلصين. في يوم من الأيام، عندما لاحظ النبي سليمان غياب الطائر، قال إنه سيعاقبه ما لم يكن لديه سبب وجيه. عندما عاد الهدهد، جلب أخباراً مهمة عن مملكة سبأ وملكتها التي كانت تعبد الشمس. وصف الطائر عرشهم ومملكتهم العظيمة لكنه أشار إلى معتقداتهم الخاطئة. أدت هذه المعلومات إلى القصة الشهيرة عن هداية ملكة سبأ إلى الإسلام. تعلمنا قصة الهدهد أن الحجم لا يهم عندما يتعلق الأمر بالقيام بعمل مهم، وأنه يجب علينا استخدام قدراتنا لهداية الآخرين إلى الحق",
       category: "Prophet's Stories"
     },
     {
@@ -50,7 +50,7 @@ const IslamicAnimals = () => {
       description: "The story of the miraculous she-camel that Allah sent as a sign to the people of Thamud.",
       descriptionArabic: "قصة الناقة المعجزة التي أرسلها الله كآية لقوم ثمود",
       story: "Allah sent Prophet Salih (AS) to guide the people of Thamud. They asked for a miracle as proof of his prophethood. Allah created a huge she-camel that emerged from a rock. This miraculous camel was a clear sign from Allah, and the people were instructed to let her drink from their well on alternate days. However, despite this clear miracle, some people of Thamud became hostile towards the camel because she drank a lot of water. They plotted against her and killed her, despite Prophet Salih's warnings. This disobedience led to their punishment from Allah. The story teaches us about respecting Allah's signs and the consequences of disobedience.",
-      storyArabic: "أرسل الله النبي صالح عليه السلام لهداية قوم ثمود. طلبوا معجزة كدليل على نبوته. خلق الله ناقة ضخمة خرجت من صخرة. كانت هذه الناقة المعجزة آية واضحة من الله، وأُمر القوم بتركها تشرب من بئرهم يوماً بعد يوم. ولكن، رغم هذه المعجزة الواضحة، أصبح بعض قوم ثمود عدائيين تجاه الناقة لأنها كانت تشرب كمية كبيرة من الماء. تآمروا عليها وقتلوها، رغم تحذيرات النبي صالح. أدى هذا العصيان إلى عقابهم من الله. تعلمنا القصة عن احترام آيات الله وعواقب العصيان.",
+      storyArabic: "أرسل الله النبي صالح عليه السلام لهداية قوم ثمود. طلبوا معجزة كدليل على نبوته. خلق الله ناقة ضخمة خرجت من صخرة. كانت هذه الناقة المعجزة آية واضحة من الله، وأُمر القوم بتركها تشرب من بئرهم يوماً بعد يوم. ولكن، رغم هذه المعجزة الواضحة، أصبح بعض قوم ثمود عدائيين تجاه الناقة لأنها كانت تشرب كمية كبيرة من الماء. تآمروا عليها وقتلوها، رغم تحذيرات النبي صالح. أدى هذا العصيان إلى عقابهم من الله. تعلمنا القصة عن احترام آيات الله وعواقب العصيان",
       category: "Prophet's Stories"
     },
     {
@@ -60,7 +60,7 @@ const IslamicAnimals = () => {
       description: "Learn about the faithful dog that guarded the People of the Cave (Ashab Al-Kahf).",
       descriptionArabic: "تعرف على الكلب الوفي الذي حرس أصحاب الكهف",
       story: "In the story of the People of the Cave (Ashab Al-Kahf), a group of young believers fled from their city to protect their faith. They took refuge in a cave, and with them was their loyal dog. Allah mentions this dog in the Quran, showing how it stayed with them, guarding the entrance of the cave with its paws stretched out. The dog remained faithful to its companions for the entire 309 years they slept in the cave. This story shows us the loyalty of animals and how Allah can bless any of His creatures with special honor. Even though it was 'just a dog,' Allah mentioned it in the Quran, teaching us that we shouldn't look down on any of Allah's creatures.",
-      storyArabic: "في قصة أهل الكهف، فر مجموعة من الشباب المؤمنين من مدينتهم لحماية إيمانهم. لجأوا إلى كهف، وكان معهم كلبهم الوفي. ذكر الله هذا الكلب في القرآن، موضحاً كيف بقي معهم، يحرس مدخل الكهف وذراعيه باسطتان. ظل الكلب وفياً لرفاقه طوال 309 سنوات التي ناموا فيها في الكهف. تظهر لنا هذه القصة وفاء الحيوانات وكيف يمكن لله أن يكرم أياً من مخلوقاته بشرف خاص. على الرغم من أنه 'مجرد كلب'، ذكره الله في القرآن، مما يعلمنا ألا نحتقر أياً من مخلوقات الله.",
+      storyArabic: "في قصة أهل الكهف، فر مجموعة من الشباب المؤمنين من مدينتهم لحماية إيمانهم. لجأوا إلى كهف، وكان معهم كلبهم الوفي. ذكر الله هذا الكلب في القرآن، موضحاً كيف بقي معهم، يحرس مدخل الكهف وذراعيه باسطتان. ظل الكلب وفياً لرفاقه طوال 309 سنوات التي ناموا فيها في الكهف. تظهر لنا هذه القصة وفاء الحيوانات وكيف يمكن لله أن يكرم أياً من مخلوقاته بشرف خاص. على الرغم من أنه 'مجرد كلب'، ذكره الله في القرآن، مما يعلمنا ألا نحتقر أياً من مخلوقات الله",
       category: "Quranic Stories"
     }
   ];
@@ -164,7 +164,7 @@ const IslamicAnimals = () => {
                   <p className="text-xl leading-relaxed mb-8 font-arabic">
                     تلعب الحيوانات أدواراً مهمة في العديد من القصص الإسلامية. إنها تعلمنا 
                     دروساً قيمة عن خلق الله وكيف يمكن حتى لأصغر المخلوقات أن تحدث فرقاً 
-                    كبيراً. يعلمنا الإسلام أن نكون رحماء بالحيوانات ونعاملها برفق.
+                    كبيراً. يعلمنا الإسلام أن نكون رحماء بالحيوانات ونعاملها برفق
                   </p>
                   <ul className="space-y-4">
                     {['قصص حيوانات مذهلة من القرآن',

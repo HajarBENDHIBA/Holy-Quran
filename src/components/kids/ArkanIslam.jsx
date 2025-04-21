@@ -9,11 +9,10 @@ const ArkanIslam = () => {
       titleArabic: "الشهادة",
       description: "The declaration of faith in Allah and His Messenger",
       descriptionArabic: "الإقرار بالله ورسوله",
-      details: "The Shahada is the first and most important pillar. It is saying: 'There is no god but Allah, and Muhammad is His Messenger.' This is what makes someone a Muslim.",
-      detailsArabic: "الشهادة هي أول وأهم ركن. وهي قول: 'لا إله إلا الله، محمد رسول الله.' وهذا ما يجعل الشخص مسلماً.",
-      image: "../src/assets/shahada.jpg",
+      details: "Shahada is the first and most important pillar of Islam. It is the declaration that there is no god but Allah and that Muhammad is His Messenger. By sincerely proclaiming it, one enters Islam.",
+      detailsArabic: "الشهادة هي الركن الأول والأعظم في الإسلام، وتعني الإقرار بأن لا إله إلا الله وأن محمدًا رسول الله. بنطقها بإخلاص، يدخل الإنسان في الإسلام",
       color: "border-blue-500",
-      icon: "🕌"
+      icon: "☪️"
     },
     {
       id: 2,
@@ -21,11 +20,10 @@ const ArkanIslam = () => {
       titleArabic: "الصلاة",
       description: "The five daily prayers",
       descriptionArabic: "الصلوات الخمس",
-      details: "Muslims pray five times a day facing the Kaaba in Makkah. Prayer helps us remember Allah and stay connected to Him throughout our day.",
-      detailsArabic: "يصلي المسلمون خمس مرات في اليوم متجهين نحو الكعبة في مكة. الصلاة تساعدنا على تذكر الله والبقاء على اتصال به طوال يومنا.",
-      image: "../src/assets/salah.jpg",
+      details: "Muslims pray five times a day facing the Kaaba in Makkah. Prayer connects us with Allah and helps us stay mindful of Him and live a righteous life.",
+      detailsArabic: "يصلي المسلمون خمس مرات يوميًا متجهين نحو الكعبة في مكة، والصلاة تربطهم بالله وتُعينهم على ذكره والاستقامة في حياتهم اليومية",
       color: "border-green-500",
-      icon: "🛐"
+      icon: "🕌 "
     },
     {
       id: 3,
@@ -33,9 +31,8 @@ const ArkanIslam = () => {
       titleArabic: "الزكاة",
       description: "Giving to those in need",
       descriptionArabic: "إعطاء المحتاجين",
-      details: "Zakat means giving a portion of our wealth to help poor and needy people. It teaches us to be generous and care for others.",
-      detailsArabic: "الزكاة تعني إعطاء جزء من ثروتنا لمساعدة الفقراء والمحتاجين. إنها تعلمنا أن نكون كرماء ونعتني بالآخرين.",
-      image: "../src/assets/zakat.jpg",
+      details: "Zakat is the giving of a portion of our wealth to help the poor and needy. It teaches us generosity, compassion, and care for others.",
+      detailsArabic: "الزكاة هي إخراج جزء من أموالنا لمساعدة الفقراء والمحتاجين، وهي تُعلّمنا الكرم والعطاء والرحمة تجاه الآخرين",
       color: "border-yellow-500",
       icon: "🤲"
     },
@@ -45,9 +42,8 @@ const ArkanIslam = () => {
       titleArabic: "الصوم",
       description: "Fasting during Ramadan",
       descriptionArabic: "الصيام في رمضان",
-      details: "During Ramadan, Muslims fast from dawn until sunset. We don't eat or drink, and we try to be extra good. Fasting helps us understand how poor people feel.",
-      detailsArabic: "خلال رمضان، يصوم المسلمون من الفجر حتى غروب الشمس. لا نأكل ولا نشرب، ونحاول أن نكون أفضل. الصوم يساعدنا على فهم شعور الفقراء.",
-      image: "../src/assets/sawm.jpg",
+      details:  "During the month of Ramadan, Muslims fast from dawn until sunset, refraining from food and drink, and striving to embody good character. Fasting helps us feel the suffering of those in need and understand their circumstances.",
+      detailsArabic: "في شهر رمضان، يصوم المسلمون من الفجر حتى غروب الشمس، ممتنعين عن الطعام والشراب، ويسعون للتحلي بالأخلاق الحسنة. يساعدنا الصيام على الشعور بمعاناة المحتاجين وفهم أحوالهم",
       color: "border-orange-500",
       icon: "🌙"
     },
@@ -57,9 +53,8 @@ const ArkanIslam = () => {
       titleArabic: "الحج",
       description: "Pilgrimage to Makkah",
       descriptionArabic: "الحج إلى مكة",
-      details: "Hajj is the journey to Makkah that Muslims make at least once in their life if they can. Millions of Muslims from all over the world come together to worship Allah.",
-      detailsArabic: "الحج هو الرحلة إلى مكة التي يقوم بها المسلمون مرة واحدة على الأقل في حياتهم إذا استطاعوا. يجتمع ملايين المسلمين من جميع أنحاء العالم لعبادة الله.",
-      image: "../src/assets/hajj.jpg",
+      details: "Hajj is a pilgrimage that a Muslim performs to Makkah once in a lifetime if able. Millions of Muslims from around the world gather to perform the rituals and draw closer to Allah.",
+      detailsArabic: "الحج هو رحلة يؤديها المسلم إلى مكة مرة واحدة في العمر إذا كان قادرًا. يجتمع فيها ملايين المسلمين من مختلف بقاع الأرض لتأدية المناسك والتقرب إلى الله",
       color: "border-purple-500",
       icon: "🕋"
     }
@@ -76,14 +71,14 @@ const ArkanIslam = () => {
         </Link>
         
         <div className="text-center mb-8">
-          <h1 className="text-3xl font-bold text-[#35767F] mb-2">The Five Pillars of Islam</h1>
-          <h2 className="text-2xl font-arabic text-[#35767F]">أركان الإسلام الخمسة</h2>
+          <h1 className="text-4xl font-bold text-[#35767F] mb-2">The Five Pillars of Islam</h1>
+          <h2 className="text-3xl font-arabic text-[#35767F]">أركان الإسلام الخمسة</h2>
         </div>
 
         <div className="space-y-4">
           {pillars.map((pillar) => (
             <div key={pillar.id} className={`bg-white rounded-lg border-l-4 ${pillar.color} shadow-sm p-4`}>
-              <div className="flex items-start gap-4">
+              <div className="flex items-start gap-4 p-8">
                 <div className="text-3xl">{pillar.icon}</div>
                 <div className="flex-1">
                   <div className="flex justify-between items-start mb-6">
@@ -91,9 +86,9 @@ const ArkanIslam = () => {
                       <h3 className="text-4xl font-bold text-[#35767F]">{pillar.title}</h3>
                       <h4 className="text-2xl font-arabic text-[#35767F]">{pillar.titleArabic}</h4>
                     </div>
-                    <div className="text-lg text-gray-600">
-                      <p>{pillar.description}</p>
-                      <p className="font-arabic text-right">{pillar.descriptionArabic}</p>
+                    <div className="text-xl text-[#35767F]">
+                      <h1>{pillar.description}</h1>
+                      <h1 className="font-arabic text-right">{pillar.descriptionArabic}</h1>
                     </div>
                   </div>
                   <div className="bg-gray-50 p-6 rounded">
